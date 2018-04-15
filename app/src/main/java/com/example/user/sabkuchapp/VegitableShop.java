@@ -40,16 +40,18 @@ import org.json.JSONArray;
 import java.util.ArrayList;
 import java.util.List;
 
-
+//hey1
 public class VegitableShop extends Fragment {
+    //hello git
 //hi
     private static final String TAG = VegitableShop.class.getSimpleName();
-    private static final String URL = "http://192.168.43.192/fruits.php";
-int amount=0;
+    private static final String URL = "http://sabkuch.co.in/sabkuckapp/fruits.php";
+    int amount=0;
     private RecyclerView recyclerView;
     private List<Vegitable> movieList;
     private StoreAdapter mAdapter;
     Intent intent;
+    //hey
 
     public VegitableShop() {
         // Required empty public constructor
