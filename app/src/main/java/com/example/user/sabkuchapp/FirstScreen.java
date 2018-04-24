@@ -22,6 +22,7 @@ Button btnFruits , btnVegitables , btnAdmin;
                 Intent i=new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(i);
                 //hello dipu
+                //hi
             }
         });
     }
