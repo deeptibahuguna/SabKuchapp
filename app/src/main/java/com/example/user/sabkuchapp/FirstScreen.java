@@ -21,16 +21,8 @@ Button btnFruits , btnVegitables , btnAdmin;
             public void onClick(View v) {
                 Intent i=new Intent(getApplicationContext(),MainActivity.class);
                 startActivity(i);
+                //hello dipu
             }
         });
-
-        btnAdmin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i=new Intent(getApplicationContext(),AddProducts.class);
-                startActivity(i);
-            }
-        });
-
     }
 }
